@@ -6,7 +6,8 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
     res.json({
-        'hello': 'Index page'
+        'id': '100',
+        'message': 'Index page'
     });
 });
 
